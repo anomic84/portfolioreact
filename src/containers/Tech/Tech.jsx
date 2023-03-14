@@ -21,7 +21,7 @@ const Tech = () => {
           <DiNpm size="3rem" color="var(--color-red)" />
           <div className="app__tech-list-item_container">
             <h4 className="app__tech-list-item_title">Back-End</h4>
-            <p className="app__tech-list-item_paragraph">Experience with <br />Node, MySql2, Sequelize, and MongoDB</p>
+            <p className="app__tech-list-item_paragraph">Experience with <br />Node, MySql2, Sequelize,<br /> and MongoDB</p>
           </div>
         </li>
         <li className="app__tech-list-item">
