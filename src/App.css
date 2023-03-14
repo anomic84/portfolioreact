@@ -2,26 +2,32 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
     scroll-behavior: smooth;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 body {
     /* background-color: var(--color-bg); */
-        /* ff 3.6+ */
-        background: -moz-radial-gradient(circle at 30% -100%, #cdb252 25%, rgb(84, 52, 4) 85%, #530E1A 100%);
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 30% -100%, #cdb252 25%, rgb(84, 52, 4) 85%, #530E1A 100%);
 
-        /* safari 5.1+,chrome 10+ */
-        background: -webkit-radial-gradient(circle at 30% -100%, #cdb252 25%, rgba(84, 52, 4) 85%, #530E1A 100%);
-    
-        /* opera 11.10+ */
-        background: -o-radial-gradient(circle at 30% -100%, #cdb252 25%, rgba(84, 52, 4, 1) 85%, #530E1A 100%);
-    
-        /* ie 10+ */
-        background: -ms-radial-gradient(circle at 30% -100%, #cdb252 25%, rgba(84, 52, 4, 1) 85%, #530E1A 100%);
-    
-        /* global 92%+ browsers support */
-        background: radial-gradient(circle at 30% -100%, #cdb252 25%, rgba(84, 52, 4, 1) 85%, #530E1A 100%);
-    
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 30% -100%, #cdb252 25%, rgba(84, 52, 4) 85%, #530E1A 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 30% -100%, #cdb252 25%, rgba(84, 52, 4, 1) 85%, #530E1A 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 30% -100%, #cdb252 25%, rgba(84, 52, 4, 1) 85%, #530E1A 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 30% -100%, #cdb252 25%, rgba(84, 52, 4, 1) 85%, #530E1A 100%);
+
 }
 
 
@@ -64,9 +70,11 @@ a {
 .section__pmargin {
     margin: 4rem 6rem;
 }
+
 .techfooter {
     background: var(--color-bg);
 }
+
 @media screen and (max-width: 700px) {
     .section__padding {
         padding: 4rem;
