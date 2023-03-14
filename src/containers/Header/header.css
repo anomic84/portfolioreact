@@ -1,6 +1,8 @@
 .app__header {
     display: flex;
     flex-direction: row;
+
+    width: 100vw;
 }
 
 .app__header-content {
@@ -10,7 +12,7 @@
     align-items: center;
     flex-direction: column;
 
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
 }
 
 .app__header-content h1 {
@@ -110,6 +112,7 @@
         font-size: 14px;
         line-height: 24px;
     }
+
     .app__header-content__input input,
     .app__header-content__input button {
         font-size: 12px;

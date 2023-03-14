@@ -9,7 +9,7 @@
     overflow: hidden;
     grid-template-columns: 1fr 1fr;
 
-
+    width: 100vw;
 }
 
 .app__tech-divider {
@@ -133,8 +133,9 @@
 
 @media screen and (max-width: 640) {
     .app__tech {
-        padding: 16px 16px 0;
-        width: calc(100vw - 32px);
+        /* padding: 16px 16px 0; */
+        /* width: calc(100vw - 32px); */
+        width: 100vw;
         flex-direction: column;
     }
 
