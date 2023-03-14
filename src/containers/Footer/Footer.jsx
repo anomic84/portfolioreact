@@ -5,7 +5,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <section className="app__footer">
+    <section className="app__footer" id="footer">
       <ul className="app__footer-list">
         <div className="app__footer-list_col">
           <h4 className="app__footer-list_col-title">Email</h4>

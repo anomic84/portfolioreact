@@ -4,7 +4,7 @@ import './tech.css'
 
 const Tech = () => {
   return (
-    <section className="app__tech gradient_bg">
+    <section className="app__tech gradient_bg" id="tech">
       <div className="app__tech-divider" />
       <br />
       <h2 className="app__tech-title">Technologies</h2>
