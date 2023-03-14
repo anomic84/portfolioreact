@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // import { RiMenu3Line, RiCloseLine, RiReactjsFill } from 'react-icons/ri';
-import { RiMenu3Line, RiCloseLine, } from 'react-icons/ri';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { FaReact } from 'react-icons/fa';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './navbar.css'
