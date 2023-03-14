@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
-import { RiMenu3Line, RiCloseLine, RiReactjsFill } from 'react-icons/ri';
+// import { RiMenu3Line, RiCloseLine, RiReactjsFill } from 'react-icons/ri';
+import { RiMenu3Line, RiCloseLine, } from 'react-icons/ri';
+import { FaReact } from 'react-icons/fa';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './navbar.css'
 
 const Navbar = () => {
@@ -19,7 +22,8 @@ const Navbar = () => {
       </div>
       <div className="app__navbar-icon">
         <p>Made with React</p>
-        <RiReactjsFill className="app__navbar-icon_img" />
+        {/* <FontAwesomeIcon icon="fa-brands fa-react" className="app__navbar-icon_img"/> */}
+        <FaReact className="app__navbar-icon_img" />
       </div>
       <div className="app__navbar-menu">
         {toggleMenu
