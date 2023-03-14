@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 // import { RiMenu3Line, RiCloseLine, RiReactjsFill } from 'react-icons/ri';
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import { FaReact } from 'react-icons/fa';
+// import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { FaReact, FaBars, FaTimes  } from 'react-icons/fa';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './navbar.css'
 
@@ -27,8 +27,8 @@ const Navbar = () => {
       </div>
       <div className="app__navbar-menu">
         {toggleMenu
-          ? <RiCloseLine color="#530E1A" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#530E1A" size={27} onClick={() => setToggleMenu(true)} />}
+          ? <FaTimes color="#530E1A" size={27} onClick={() => setToggleMenu(false)} />
+          : <FaBars color="#530E1A" size={27} onClick={() => setToggleMenu(true)} />}
         {toggleMenu && (
           <div className="app__navbar-menu_container scale-up-center">
             <div className="app__navbar-menu_container-links">
