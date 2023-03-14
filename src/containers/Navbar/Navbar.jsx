@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { RiMenu3Line, RiCloseLine, RiReactjsFill } from 'react-icons/ri';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css'
 
 const Navbar = () => {
@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <div className="app__navbar">
       <div className="app__navbar-links">
-      <div className="app__navbar-links_name">
-         <p>Spencer C. Carlson</p>
+        <div className="app__navbar-links_name">
+          <p>Spencer C. Carlson</p>
         </div>
         <div className="app__navbar-links_container">
           <p><a href="#home">Home</a></p>
@@ -32,7 +32,7 @@ const Navbar = () => {
               <p><a href="#projects">Projects</a></p>
               <p><a href="#tech">Technologies</a></p>
               <p><a href="#footer">Contact</a></p>
-      
+
             </div>
           </div>
         )}
