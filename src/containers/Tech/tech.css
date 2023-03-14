@@ -8,6 +8,8 @@
     position: relative;
     overflow: hidden;
     grid-template-columns: 1fr 1fr;
+
+
 }
 
 .app__tech-divider {
@@ -15,6 +17,7 @@
     height: 6px;
     border-radius: 10px;
     background: var(--gradient-bar);
+    margin-top: 5rem;
 }
 
 .app__tech-title {
