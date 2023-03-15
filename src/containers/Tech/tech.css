@@ -90,7 +90,7 @@ margin-right: auto;
 
 @media screen and (max-width: 768) {
     .app__tech {
-        padding: 24px 48px 0;
+        padding: 0;
         flex-direction: column;
     }
 

@@ -3,15 +3,14 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0;
     margin-bottom: -5rem;
     max-width: 1040px;
     box-sizing: content-box;
-    /* width: 100vw; */
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     grid-template-columns: 1fr 1fr;
     background: var(--color-footer);
-    padding: 0;
     /* ff 3.6+ */
     background: -moz-radial-gradient(circle at 30% -100%, #cdb252 25%, rgb(84, 52, 4) 85%, #530E1A 100%);
 
@@ -33,25 +32,25 @@
 .app__projects-divider {
     width: 64px;
     height: 6px;
-    margin-top: 1rem;
-    margin-left: 1rem;
     border-radius: 10px;
     background: var(--gradient-text2);
+    margin: 4rem 0;
+    margin-left: 1rem;
 }
 
 /* ----- "Projects" at top of section - NOT OF EACH PROJ ----- */
 .app__projects-title {
     font-weight: 800;
-    font-size: 56px;
-    line-height: 56px;
+    font-size: 65px;
+    line-height: 72px;
     width: max-content;
     max-width: 100%;
     background: var(--gradient-text2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    padding: 0;
     margin-bottom: 16px;
+    padding: 0;
+
     margin-left: 1rem;
 }
 
@@ -64,7 +63,6 @@
     column-gap: 2rem;
     row-gap: 3rem;
     /* grid-gap: 2rem; */
-    /* width: 100%; */
 
 }
 
@@ -74,6 +72,7 @@
     box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
     text-align: center;
     width: 400px;
+
 }
 
 /* ----- Project Image ----- */
@@ -94,11 +93,11 @@
 /* ----- Project Title ----- */
 .app__projects-card-title {
     font-family: var(--font-family);
-    font-size: 2rem;
     font-weight: 500;
     letter-spacing: 2px;
     color: #9cc9e3;
     padding: .5rem 0;
+    font-size: 2rem;
 }
 
 /* ----- Project Line Break ----- */
@@ -130,11 +129,11 @@
 /* ----- Project Tech Tag Section ----- */
 .app__projects-card_footer-taglist {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: space-around;
-    align-items: space-around;
     padding: 2rem;
+    /* flex-wrap: wrap;
+    gap: 20px;
+    align-items: space-around; */
 }
 
 /* ----- Project Tech Tags ----- */
@@ -156,7 +155,7 @@
 .app__projects-card_utility-list_code {
     color: #d4c0c0;
     font-size: 1.6rem;
-    padding: 1rem 3rem;
+    padding: 1rem 1.5rem;
     background: #6b3030;
     border-radius: 15px;
     transition: 0.5s;
@@ -172,8 +171,8 @@
 
 @media screen and (min-width: 768) {
     .app__projects {
-        padding: 24px 48px 0;
-        /* flex-direction: column; */
+        padding: auto 0;
+        flex-direction: column;
     }
 
     .app__projects-divider {
@@ -182,17 +181,17 @@
     }
 
     .app__projects-title {
-        font-size: 48px;
-        line-height: 48px;
+        font-size: 56px;
+        line-height: 56px;
         margin-bottom: 12px;
+        padding: 0;
     }
 }
 
 @media screen and (min-width: 640) {
     .app__projects {
-
-        width: 100vw;
-
+        width: calc(100vw - 32px);
+        flex-direction: column;
     }
 
     .app__projects-divider {
@@ -201,16 +200,17 @@
     }
 
     .app__projects-title {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 28px;
+        line-height: 32px;
         margin-bottom: 8px;
+        padding: 0;
         max-width: 100%;
     }
 
     .app__projects-grid {
         display: flex;
         flex-direction: column;
-        padding: 0.5rem;
+        padding: 2rem;
         padding-bottom: 0;
     }
 
