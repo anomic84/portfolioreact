@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     title: 'Employee Tracker',
-    description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description: "An interface to allow user to manage their database of employees, as to which role (or job) they fit into, their pay, and who's their manager.This application gives the user the ability to add and view departments of their company, view and add roles to their company, and view or add employees, as well as update their information.",
     image: 'https://i.imgur.com/v2eHGt5.png',
     imagealt: 'Employee Tracker',
     tags: ['MySQL', 'Express', 'Node'],
