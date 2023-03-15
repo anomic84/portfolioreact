@@ -4,6 +4,7 @@
     padding: 2rem 48px 40px;
     margin: 1rem auto;
     box-sizing: content-box;
+  
 }
 
 .app__footer-list {
@@ -50,6 +51,7 @@
 .app__footer-icon_container {
     max-width: 1040px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -109,8 +111,9 @@
     }
 
     .app__footer-icon_container {
-        display: flex;
-        justify-content: space-between;
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: space-between; */
     }
 
     .app__footer-slogan_container {
@@ -124,9 +127,10 @@
     }
 
     .app__footer-social_container {
+
         justify-content: center;
         padding-right: 16px;
-        flex-wrap: wrap;
+
     }
 
 }
@@ -139,7 +143,7 @@
 
     .app__footer-list {
         width: 100%;
-		padding: 32px 4px 16px;
+        padding: 32px 4px 16px;
         gap: 5px;
     }
 
@@ -159,8 +163,8 @@
 
     .app__footer-icon_container {
         display: flex;
-        width: 100%;
-        flex-direction: column;
+        flex-direction: column; 
+        /* width: 100%; */
     }
 
     .app__footer-slogan_container {
