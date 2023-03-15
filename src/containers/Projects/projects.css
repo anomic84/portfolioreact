@@ -131,9 +131,9 @@
     display: flex;
     justify-content: space-around;
     padding: 2rem;
-    /* flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 20px;
-    align-items: space-around; */
+    align-items: space-around;
 }
 
 /* ----- Project Tech Tags ----- */

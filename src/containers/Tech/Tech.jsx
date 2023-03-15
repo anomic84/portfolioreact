@@ -8,7 +8,6 @@ const Tech = () => {
       <div className="app__tech-divider" />
       <br />
       <h2 className="app__tech-title">Technologies</h2>
-      <p className="app__tech-text">I've aquired a familiar understanding of many technologies used in the world of web development</p>
       <ul className="app__tech-list_area">
         <li className="app__tech-list-item">
           <DiReact size="3rem" color="var(--color-red)" />
