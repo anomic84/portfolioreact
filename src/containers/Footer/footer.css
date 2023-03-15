@@ -2,7 +2,7 @@
     /* width: calc(100vw - 96px); */
     width: 100vw;
     max-width: 1040px;
-    padding: 2rem 48px 40px;
+    padding: 0;
     margin: 1rem auto;
     box-sizing: content-box;
 }
@@ -92,14 +92,14 @@
 
 @media screen and (max-width: 1024) {
     .app__footer-list {
-        padding: 32px 0 16px;
+        /* padding: 32px 0 16px 5px; */
     }
 }
 
 @media screen and (max-width: 768) {
     .app__footer-list {
         width: 100%;
-        padding: 32px 0 16px;
+        /* padding: 32px 0 16px 5px; */
         gap: 16px;
     }
 
