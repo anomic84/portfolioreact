@@ -1,7 +1,7 @@
 .app__tech {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 32px 48px 0;
     margin: 0 auto;
     max-width: 1040px;
     box-sizing: content-box;
@@ -16,7 +16,7 @@
     border-radius: 10px;
     background: var(--gradient-bar);
     margin-top: 10rem;
-
+    padding-left: 1rem;
 }
 
 .app__tech-title {
@@ -30,6 +30,7 @@
     -webkit-text-fill-color: transparent;
     margin-bottom: 16px;
     padding: 0;
+    padding-left: 1rem;
 }
 
 .app__tech-text {
@@ -134,9 +135,9 @@
 
 @media screen and (max-width: 640) {
     .app__tech {
-        /* padding: 16px 16px 0; */
-        /* width: calc(100vw - 32px); */
-        width: 100vw;
+        padding: 16px 16px 0;
+        width: calc(100vw - 32px);
+        /* width: 100vw; */
         flex-direction: column;
     }
 

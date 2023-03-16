@@ -17,6 +17,7 @@ const Footer = () => {
         <div className="app__footer-slogan_container">
           <p className="app__footer-slogan">Bringing passion to every project.</p>
         </div>
+        <br />
         <div className="app__footer-social_container">
           <a href="https://github.com/anomic84" className="app__footer-social_icon">
             <AiFillGithub size="3rem" />
@@ -28,7 +29,6 @@ const Footer = () => {
             <AiFillInstagram size="3rem" />
           </a>
         </div>
-
       </div>
     </section>
   )
