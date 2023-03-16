@@ -50,7 +50,7 @@
     -webkit-text-fill-color: transparent;
     margin-bottom: 16px;
     padding: 0;
-
+    max-width: 1024px;
     margin-left: 1rem;
 }
 
@@ -114,7 +114,7 @@
     width: 100%;
     padding: 0 50px;
     color: #e4e6e7;
-    font-style: 2rem;
+    font-size: 2rem;
     line-height: 24px;
     text-align: justify;
 }
@@ -165,11 +165,11 @@
     background: #801414;
 }
 
-@media screen and (max-width: 1280) {}
+@media screen and (max-width: 1280px) {}
 
-@media screen and (max-width: 1024) {}
+@media screen and (max-width: 1024px) {}
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
     .app__projects {
         padding: auto 0;
         flex-direction: column;
@@ -188,7 +188,7 @@
     }
 }
 
-@media screen and (min-width: 640) {
+@media screen and (min-width: 640px) {
     .app__projects {
         width: calc(100vw - 32px);
         flex-direction: column;
@@ -220,5 +220,12 @@
 
     .app__projects-card-info {
         padding: 0.3rem;
+    }
+}
+
+@media screen and (min-width: 475px) {
+
+    .app__projects-grid {
+        padding: 10px;
     }
 }
