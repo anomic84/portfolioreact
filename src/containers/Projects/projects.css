@@ -8,7 +8,7 @@
     max-width: 1040px;
     box-sizing: content-box;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     grid-template-columns: 1fr 1fr;
     background: var(--color-footer);
     /* ff 3.6+ */
@@ -80,7 +80,7 @@
     width: 100%;
     height: 100%;
     object-fit: scale-down;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* ----- Project Title Area ----- */

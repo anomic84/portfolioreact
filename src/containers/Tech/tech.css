@@ -7,7 +7,7 @@
     box-sizing: content-box;
     position: relative;
     overflow: hidden;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
 }
 
 .app__tech-divider {
@@ -47,7 +47,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-
+    /* display: flex;
+    flex-direction: row; */
     margin: 3rem 0;
     /* margin-left: auto;
     margin-right: auto; */
@@ -133,7 +134,7 @@
     }
 }
 
-@media screen and (max-width: 640) {
+@media screen and (min-width: 481) and (max-width: 640) {
     .app__tech {
         padding: 16px 16px 0;
         width: calc(100vw - 32px);
@@ -149,8 +150,6 @@
     .app__tech-title {
         font-size: 32px;
         line-height: 40px;
-        font-size: 32px;
-        line-height: 40px;
         margin-bottom: 8px;
         max-width: 100%;
     }
@@ -162,6 +161,9 @@
     }
 
     .app__tech-list_area {
+        /* display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr); */
         display: flex;
         flex-direction: column;
         margin: 32px 0;
@@ -188,5 +190,22 @@
     .app__tech-list-item_paragraph {
         font-size: 14px;
         line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 480) {
+    .app__tech-list_area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .app__tech-list-item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .app__tech-list-item_title {
+        font-size: 18px;
+        line-height: 25px;
     }
 }
